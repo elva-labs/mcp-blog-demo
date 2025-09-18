@@ -1,0 +1,222 @@
+CANDIDATES = [
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "title": "Senior Full Stack Developer",
+        "skills": ["Python", "JavaScript", "React", "Django", "PostgreSQL", "Docker"],
+        "experience_years": 8,
+        "location": "San Francisco, CA",
+        "availability": "Immediate",
+        "rate": 150,
+        "specializations": ["E-commerce", "SaaS", "API Development"]
+    },
+    {
+        "id": 2,
+        "name": "Bob Chen",
+        "title": "DevOps Engineer",
+        "skills": ["Kubernetes", "AWS", "Terraform", "Python", "CI/CD", "Prometheus"],
+        "experience_years": 6,
+        "location": "Seattle, WA",
+        "availability": "2 weeks",
+        "rate": 140,
+        "specializations": ["Cloud Infrastructure", "Automation", "Monitoring"]
+    },
+    {
+        "id": 3,
+        "name": "Carol Martinez",
+        "title": "Frontend Developer",
+        "skills": ["React", "TypeScript", "Vue.js", "CSS", "Webpack", "Jest"],
+        "experience_years": 5,
+        "location": "Austin, TX",
+        "availability": "1 month",
+        "rate": 120,
+        "specializations": ["UI/UX", "Performance Optimization", "Accessibility"]
+    },
+    {
+        "id": 4,
+        "name": "David Kumar",
+        "title": "Machine Learning Engineer",
+        "skills": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "SQL", "Docker"],
+        "experience_years": 7,
+        "location": "New York, NY",
+        "availability": "Immediate",
+        "rate": 180,
+        "specializations": ["Computer Vision", "NLP", "Deep Learning"]
+    },
+    {
+        "id": 5,
+        "name": "Emily Wilson",
+        "title": "Backend Developer",
+        "skills": ["Java", "Spring Boot", "Microservices", "Redis", "MongoDB", "RabbitMQ"],
+        "experience_years": 9,
+        "location": "Chicago, IL",
+        "availability": "3 weeks",
+        "rate": 160,
+        "specializations": ["Distributed Systems", "Event-Driven Architecture", "High Performance"]
+    },
+    {
+        "id": 6,
+        "name": "Frank Zhang",
+        "title": "Mobile Developer",
+        "skills": ["React Native", "Swift", "Kotlin", "Flutter", "Firebase", "GraphQL"],
+        "experience_years": 4,
+        "location": "Los Angeles, CA",
+        "availability": "Immediate",
+        "rate": 130,
+        "specializations": ["iOS", "Android", "Cross-Platform Development"]
+    },
+    {
+        "id": 7,
+        "name": "Grace Thompson",
+        "title": "Data Engineer",
+        "skills": ["Python", "Apache Spark", "Airflow", "SQL", "AWS", "Kafka"],
+        "experience_years": 6,
+        "location": "Denver, CO",
+        "availability": "2 weeks",
+        "rate": 145,
+        "specializations": ["ETL Pipelines", "Data Warehousing", "Real-time Processing"]
+    },
+    {
+        "id": 8,
+        "name": "Henry Rodriguez",
+        "title": "Security Engineer",
+        "skills": ["Python", "Penetration Testing", "OWASP", "AWS Security", "Kubernetes", "SIEM"],
+        "experience_years": 8,
+        "location": "Washington, DC",
+        "availability": "1 month",
+        "rate": 170,
+        "specializations": ["Application Security", "Cloud Security", "Compliance"]
+    },
+    {
+        "id": 9,
+        "name": "Isabella Lee",
+        "title": "Full Stack Developer",
+        "skills": ["Node.js", "React", "MongoDB", "Express", "TypeScript", "AWS"],
+        "experience_years": 5,
+        "location": "Boston, MA",
+        "availability": "Immediate",
+        "rate": 125,
+        "specializations": ["MEAN Stack", "Real-time Applications", "Serverless"]
+    },
+    {
+        "id": 10,
+        "name": "James Patel",
+        "title": "Platform Engineer",
+        "skills": ["Go", "Kubernetes", "Istio", "Helm", "GitOps", "Linux"],
+        "experience_years": 7,
+        "location": "Portland, OR",
+        "availability": "3 weeks",
+        "rate": 155,
+        "specializations": ["Service Mesh", "Container Orchestration", "Infrastructure as Code"]
+    },
+    {
+        "id": 11,
+        "name": "Karen White",
+        "title": "QA Automation Engineer",
+        "skills": ["Selenium", "Python", "Jest", "Cypress", "JMeter", "API Testing"],
+        "experience_years": 6,
+        "location": "Miami, FL",
+        "availability": "2 weeks",
+        "rate": 110,
+        "specializations": ["Test Automation", "Performance Testing", "CI/CD Integration"]
+    },
+    {
+        "id": 12,
+        "name": "Liam O'Brien",
+        "title": "Blockchain Developer",
+        "skills": ["Solidity", "JavaScript", "Web3.js", "Ethereum", "Smart Contracts", "Node.js"],
+        "experience_years": 4,
+        "location": "San Diego, CA",
+        "availability": "Immediate",
+        "rate": 165,
+        "specializations": ["DeFi", "NFTs", "Smart Contract Auditing"]
+    },
+    {
+        "id": 13,
+        "name": "Maria Garcia",
+        "title": "Site Reliability Engineer",
+        "skills": ["Python", "Prometheus", "Grafana", "Kubernetes", "Terraform", "Go"],
+        "experience_years": 7,
+        "location": "Phoenix, AZ",
+        "availability": "1 month",
+        "rate": 150,
+        "specializations": ["Observability", "Incident Response", "Capacity Planning"]
+    },
+    {
+        "id": 14,
+        "name": "Nathan Kim",
+        "title": "iOS Developer",
+        "skills": ["Swift", "SwiftUI", "Objective-C", "Core Data", "Xcode", "TestFlight"],
+        "experience_years": 6,
+        "location": "Philadelphia, PA",
+        "availability": "2 weeks",
+        "rate": 140,
+        "specializations": ["Native iOS", "ARKit", "App Store Optimization"]
+    },
+    {
+        "id": 15,
+        "name": "Olivia Brown",
+        "title": "Database Administrator",
+        "skills": ["PostgreSQL", "MySQL", "Oracle", "Redis", "Performance Tuning", "Backup/Recovery"],
+        "experience_years": 10,
+        "location": "Houston, TX",
+        "availability": "3 weeks",
+        "rate": 135,
+        "specializations": ["High Availability", "Database Migration", "Query Optimization"]
+    },
+    {
+        "id": 16,
+        "name": "Peter Nguyen",
+        "title": "Android Developer",
+        "skills": ["Kotlin", "Java", "Android SDK", "Jetpack Compose", "Firebase", "Material Design"],
+        "experience_years": 5,
+        "location": "Atlanta, GA",
+        "availability": "Immediate",
+        "rate": 125,
+        "specializations": ["Native Android", "Wear OS", "Google Play Publishing"]
+    },
+    {
+        "id": 17,
+        "name": "Quinn Roberts",
+        "title": "Cloud Architect",
+        "skills": ["AWS", "Azure", "Terraform", "Docker", "Python", "Architecture Design"],
+        "experience_years": 11,
+        "location": "Dallas, TX",
+        "availability": "1 month",
+        "rate": 190,
+        "specializations": ["Multi-Cloud", "Cost Optimization", "Migration Strategy"]
+    },
+    {
+        "id": 18,
+        "name": "Rachel Adams",
+        "title": "Game Developer",
+        "skills": ["Unity", "C#", "Unreal Engine", "C++", "3D Graphics", "Physics Engines"],
+        "experience_years": 6,
+        "location": "Las Vegas, NV",
+        "availability": "2 weeks",
+        "rate": 130,
+        "specializations": ["Mobile Games", "VR/AR", "Multiplayer Systems"]
+    },
+    {
+        "id": 19,
+        "name": "Samuel Foster",
+        "title": "Embedded Systems Engineer",
+        "skills": ["C", "C++", "ARM", "RTOS", "Linux", "IoT"],
+        "experience_years": 8,
+        "location": "Detroit, MI",
+        "availability": "3 weeks",
+        "rate": 145,
+        "specializations": ["Firmware Development", "Hardware Integration", "Real-time Systems"]
+    },
+    {
+        "id": 20,
+        "name": "Tara Singh",
+        "title": "AI/ML Research Engineer",
+        "skills": ["Python", "JAX", "Transformers", "CUDA", "MLOps", "Research"],
+        "experience_years": 5,
+        "location": "San Jose, CA",
+        "availability": "Immediate",
+        "rate": 175,
+        "specializations": ["LLMs", "Reinforcement Learning", "Model Optimization"]
+    }
+]
